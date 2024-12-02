@@ -1,3 +1,6 @@
+import Aos from "aos";
+import React, {useEffect } from 'react';
+
 export default function Careers() {
     // Simulated dynamic job data
     const jobs = [
@@ -24,11 +27,15 @@ export default function Careers() {
       },
     
     ];
+    useEffect(() =>{
+      Aos.init({duration:2500,
+    });
+    },[]);
   
     return (
 
-        <div className='bg-[url("/pic3.webp")] bg-center bg-fixed  bg-cover bg-opacity-90'>
-        <div className='bg-black bg-opacity-90 bg-auto bg-fixed h-screen'>
+        <div data-aos="zoom-out" className='min-h-screen bg-[url("/pic3.webp")] bg-center bg-fixed  bg-cover bg-opacity-90 text-white'>
+        <div className='bg-black bg-opacity-90 bg-auto bg-fixed min-h-screen '>
           <div className="py-36">
 
         <h1 className="text-3xl sm:text-4xl font-bold text-center mb-8">Careers at FINIK</h1>
@@ -37,7 +44,7 @@ export default function Careers() {
         </p>
   
         {/* Job Listings */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 container mx-auto">
+        <div className="  grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 container mx-auto">
           {jobs.map((job) => (
             <div key={job.id} className="bg-white shadow-lg rounded-lg overflow-hidden">
               <div className="p-6">

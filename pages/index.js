@@ -37,19 +37,20 @@ export default function Home() {
                 autoPlay
                 loop
                 muted
-                className="absolute -z-10 h-screen w-screen object-cover"
+                className="absolute -z-10 h-screen w-screen object-cover blur-sm"
             >
                <source src="hero.mp4" type="video/mp4" />Your browser does not support the video tag.
             </video>
-            <div className="max-w-7xl mx-auto flex justify-between bg-gradient-to-r from-cyan-500 to-blue-500 bg-opacity-90 p-3 rounded-lg ">
+            <div className="max-w-7xl mx-auto flex justify-between  bg-opacity-90 p-3 rounded-lg ">
             
             <div className="w-full md:w-1/2 space-y-6 p-4"></div>
-            <div className="w-full md:w-1/2 space-y-6 dark:bg-black bg-white p-4 rounded-lg">
+            <div cl></div>
+            <div className="w-full md:w-1/2 space-y-6 dark:bg-black dark:bg-opacity-50 bg-white bg-opacity-80 p-4 rounded-lg">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tigh dark:text-white text-black ">
-            Delivering the best solutions with cutting-edge technologies
+            Join us on a journey to explore the limitless possibilities
           </h1>
           <p className="text-lg sm:text-xl lg:text-2xl dark:text-white text-black">
-            We support cutting-edge  solutions that power wireless communication, satellite systems, IoT, and more.
+          empower businesses and individuals with cutting-edge technology solutions that drive success and transformation
           </p>
           </div>
           <div>

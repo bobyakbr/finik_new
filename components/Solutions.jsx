@@ -11,41 +11,41 @@ const Solutions = ({ }) => {
   }, []);
 
   return (
-    <section id="solutions" className='h-screen bg-gradient-to-r from-cyan-500 to-blue-500'>
-      <br/>
-      <br />
-      <div className='grid items-center justify-center h-screen md:h-screen '>
-
-        <div className='p-5 text-grey z-[2] mt-[-10rem]'>
-          <div className='items-center text-center'>
-            <h3 data-aos="zoom-out" className='text-center items-center text-3xl font-bold relative md:relative'>Our Solutions</h3>
+    <section id="solutions" className='min-h-screen bg-gradient-to-r place-content-center from-cyan-500 to-blue-500'>
+      <div className='container mx-auto grid items-center justify-center'>
+        <div className='p-5 text-grey z-[2] '>
+          <div className='items-center text-center relative'>
+            <h3 data-aos="zoom-out" className='text-3xl font-bold '>Our Key Strengths</h3>
             <br />
           </div>
           <br />
-          <div data-aos="zoom-out" className=" grid grid-cols-1 gap-4 overflow-y-auto max-h-screen md:grid-cols-4 md:max-w-[900px] dark:text-gray-400 ">
+          <div data-aos="zoom-out" className="  grid grid-cols-1 gap-4 overflow-y-auto lg:grid-cols-5 md:max-w-[1000px] dark:text-gray-400 ">
 
             <div className="justify-center text-center p-6 bg-gray-100 hover:text-white dark:hover:text-white dark:bg-gray-600 rounded-xl hover:bg-black dark:hover:bg-black overflow-y-auto">
-              <h1 className='font-bold text-xl dark:text-white'>Technology</h1>
+              <h1 className='font-bold text-xl dark:text-white'>Innovative Thinking</h1>
               <br />
 
-              <p >We provide both software and hardware solutions with the performance you need to manage your business.</p>
+              <p >We pride ourselves on staying ahead of the curve with the latest technological advancements and creative problem-solving approaches.</p>
             </div>
             <div className="justify-center text-center p-6 bg-gray-100  hover:text-white dark:hover:text-white dark:bg-gray-600 rounded-xl hover:bg-black dark:hover:bg-black">
-              <h1 className='font-bold text-xl dark:text-white '>Support</h1>
+              <h1 className='font-bold text-xl dark:text-white '>Customer-Centric Approach</h1>
               <br />
-              <p >Our support team offers around-the-clock support to keep your business operating at peak performance.</p>
+              <p >We believe in building strong relationships with our clients, understanding their needs, and delivering solutions that exceed their expectations.</p>
             </div>
             <div className="justify-center text-center p-6 bg-gray-100 hover:text-white dark:hover:text-white  dark:bg-gray-600 rounded-xl hover:bg-black dark:hover:bg-black">
-              <h1 className='font-bold text-xl dark:text-white'>Scalability</h1>
+              <h1 className='font-bold text-xl dark:text-white'>Dedicated Professionals</h1>
               <br />
-              <p>Our technology solutions are adaptable to a wide range of business models to suit the needs of our customers ever growing businesses.</p>
+              <p>Our team comprises highly skilled professionals who are passionate about technology and committed to excellence.</p>
             </div>
             <div className="justify-center text-center p-6 bg-gray-100 hover:text-white dark:hover:text-white dark:bg-gray-600 rounded-xl hover:bg-black dark:hover:bg-black">
-              <h1 className='font-bold text-xl dark:text-white'>QA</h1>
+              <h1 className='font-bold text-xl dark:text-white'>Continuous Learning</h1>
               <br />
-              <p>We believe in prevention over inspection. We undertake Quality testing services as an integral part of every project to be sure our customers get what they paid for and more.</p>
+              <p>We invest in ongoing training and development to ensure our team remains at the forefront of the IT industry.</p>
             </div>
-
+            <div className="justify-center text-center p-6 bg-gray-100 hover:text-white dark:hover:text-white dark:bg-gray-600 rounded-xl hover:bg-black dark:hover:bg-black">
+              <h1 className='font-bold text-xl dark:text-white'>Proven Track Record</h1>
+              <br />
+              <p>Our portfolio includes numerous successful projects that have transformed businesses and driven growth.</p></div>
           </div>
         </div>
       </div>
