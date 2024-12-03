@@ -1,5 +1,6 @@
 import Aos from "aos";
 import React, {useEffect } from 'react';
+import Link from "next/link";
 
 export default function Careers() {
     // Simulated dynamic job data
@@ -9,7 +10,7 @@ export default function Careers() {
         title: 'Software Engineer',
         location: 'Remote',
         description: 'Join our team to develop innovative software solutions...',
-        applyLink: '/apply/software-engineer'
+        applyLink: '/#Contact'
       },
       {
         id: 2,
@@ -51,12 +52,12 @@ export default function Careers() {
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">{job.title}</h3>
                 <p className="text-gray-600 text-sm mb-4">{job.location}</p>
                 <p className="text-gray-700 mb-4">{job.description}</p>
-                <a 
-                  href={job.applyLink}
+                <Link
+                  href="/#contact"
                   className="inline-block bg-blue-600 text-white py-2 px-6 rounded-full mt-4 hover:bg-blue-700 transition duration-300"
                 >
                   Apply Now
-                </a>
+                </Link>
               </div>
             </div>
           ))}

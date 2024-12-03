@@ -69,7 +69,7 @@ export default function Home() {
             
             <div className="w-full md:w-1/2 space-y-6 p-4"></div>
             <div cl></div>
-            <div className="w-full md:w-1/2 space-y-6 dark:bg-black dark:bg-opacity-50 bg-white bg-opacity-80 p-4  rounded-lg " key={currentIndex}>
+            <div className="w-full md:w-1/2 space-y-6 dark:bg-black dark:bg-opacity-50 bg-white bg-opacity-80 p-4 min-w-40 rounded-lg " key={currentIndex}>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tigh dark:text-white text-black transition-opacity duration-1000 ease-in-out" key={currentIndex}>
             {statements[currentIndex]}
           </h1>
