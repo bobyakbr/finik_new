@@ -68,7 +68,7 @@ export default function Home() {
             </video>
             <div className="max-w-7xl mx-auto flex justify-between  bg-opacity-90 p-3 rounded-lg ">
             
-            <div className="w-full md:w-1/2 space-y-6 p-4"></div>
+            <div className="w-full w-1/2 md:w-1/10 space-y-6 p-4"></div>
 
             <div className="w-full md:w-1/2 space-y-6 dark:bg-black dark:bg-opacity-50 bg-white bg-opacity-80 p-4 rounded-lg text-pretty min-w-40 " key={currentIndex}>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tigh dark:text-white text-black transition-opacity duration-1000 ease-in-out text-wrap" key={currentIndex}>
