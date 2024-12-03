@@ -61,6 +61,7 @@ export default function Home() {
                 autoPlay
                 loop
                 muted
+                playsinline
                 className="absolute -z-10 h-screen w-screen object-cover blur-sm"
             >
                <source src="hero.mp4" type="video/mp4" />Your browser does not support the video tag.
@@ -68,12 +69,12 @@ export default function Home() {
             <div className="max-w-7xl mx-auto flex justify-between  bg-opacity-90 p-3 rounded-lg ">
             
             <div className="w-full md:w-1/2 space-y-6 p-4"></div>
-            <div cl></div>
-            <div className="w-full md:w-1/2 space-y-6 dark:bg-black dark:bg-opacity-50 bg-white bg-opacity-80 p-4 min-w-40 rounded-lg " key={currentIndex}>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tigh dark:text-white text-black transition-opacity duration-1000 ease-in-out" key={currentIndex}>
+
+            <div className="w-full md:w-1/2 space-y-6 dark:bg-black dark:bg-opacity-50 bg-white bg-opacity-80 p-4 rounded-lg text-pretty min-w-40 " key={currentIndex}>
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tigh dark:text-white text-black transition-opacity duration-1000 ease-in-out text-wrap" key={currentIndex}>
             {statements[currentIndex]}
           </h1>
-          <p className="text-lg sm:text-xl lg:text-2xl dark:text-white text-black transition-opacity duration-2000 ease-in-out" key={currentIndex}>
+          <p className="text-lg sm:text-xl lg:text-2xl dark:text-white text-black transition-opacity duration-2000 ease-in-out text-pretty" key={currentIndex}>
           {substatements[currentIndex]}
           </p>
           <div className="flex justify-center items-center space-x-2">
